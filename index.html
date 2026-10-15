@@ -461,26 +461,7 @@
         </div>
     </footer>
 
-    <!-- اسکریپت امنیتی ضد سرقت و قفل محتوا -->
-    <script>
-        // ۱. غیرفعال کردن کلیک راست
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-            alert('طراحی و محتوا متعلق به یاشار دیزاین می‌باشد و کپی‌برداری مجاز نیست.');
-        });
 
-        // ۲. بستن کلیدهای میانبر Inspect (F12, Ctrl+Shift+I, Ctrl+U)
-        document.addEventListener('keydown', function(e) {
-            if (
-                e.key === 'F12' || 
-                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) || 
-                (e.ctrlKey && e.key === 'U')
-            ) {
-                e.preventDefault();
-                alert('دسترسی به سورس‌کد قفل شده است.');
-                return false;
-            }
-        });
     </script>
 </body>
 </html>

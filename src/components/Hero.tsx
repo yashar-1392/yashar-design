@@ -9,7 +9,7 @@ export function Hero() {
   const stats = [
     { value: '+۶۰', valueEn: '+60', label: t.hero.stat1 },
     { value: '۱۰۰٪', valueEn: '100%', label: t.hero.stat2 },
-    { value: '۱۲', valueEn: '12', label: t.hero.stat3 },
+    { value: '۲۱', valueEn: '21', label: t.hero.stat3 },
     { value: '۷/۲۴', valueEn: '24/7', label: t.hero.stat4 },
   ];
 
